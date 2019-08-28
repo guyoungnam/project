@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.techtown.DoitMission09.sub">
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp">
+
+
+        <EditText
+
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/sYear"
+            android:inputType="date"
+            />
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="년"
+            android:id="@+id/textView11" />
+
+
+        <EditText
+
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/sMonth"
+            android:inputType="date"/>
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="월"
+            android:id="@+id/textView13" />
+
+
+        <EditText
+
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/sDay"
+            android:inputType="date"/>
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="일"
+            android:id="@+id/textView15" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp">
+
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="설정"
+            android:id="@+id/comp" />
+
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="닫기"
+            android:id="@+id/closeBtn" />
+
+
+    </LinearLayout>
+</LinearLayout>

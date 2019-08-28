@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    tools:context="org.techtown.DoitMission09.MainActivity">
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            android:text="이름"
+
+            android:id="@+id/textView" />
+
+
+        <EditText
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:id="@+id/editText" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content" >
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            android:text="나이"
+
+            android:id="@+id/textView2" />
+
+
+        <EditText
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:id="@+id/editText2" />
+
+    </LinearLayout>
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="20dp"
+
+        android:textSize="20dp"
+
+        android:text="생년월일"
+
+        android:id="@+id/textView3"
+
+        android:allowUndo="false" />
+
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+
+        android:background="#ffbc58"
+
+        android:layout_marginTop="40dp"
+
+        android:id="@+id/birth">
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text=""
+
+            android:id="@+id/mYear"
+
+            android:textSize="40dp"/>
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="년"
+
+            android:id="@+id/textView5"
+
+            android:textSize="40dp"/>
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text=""
+
+            android:id="@+id/mMonth"
+
+            android:textSize="40dp"
+
+            />
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="월"
+
+            android:id="@+id/textView7"
+
+            android:textSize="40dp"
+
+            />
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text=""
+
+            android:id="@+id/mDay"
+
+            android:textSize="40dp"/>
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="일"
+
+            android:id="@+id/textView9"
+
+            android:textSize="40dp"
+
+            />
+
+    </LinearLayout>
+
+
+    <Button
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:text="저장"
+
+        android:id="@+id/saveBtn"
+
+        android:layout_marginTop="100dp"
+
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
